@@ -58,3 +58,13 @@ pip3 install --upgrade opencv-python
 ```bash
 sudo apt-get install libmsgpack*
 ```
+
+## Demo introduction
+In this repo, four scripts are provided in "demo" folder. All the scripts are required to use on Unitree A1 robot for RoBoCom competition. This demo is a simple example for the first challenge in the competition, which is the color block detection.
+
+[Unitree A1 robot](https://www.unitree.com/cn/products/a1) is a quadupedal robot with high dynamics performance developed by [Unitree Robotics](https://www.unitree.com/cn). In the first challenge, a board with different color is shown on one side of a room. The user should program on A1 robot so that the robot is able to independently find the specific color on the board and touch the color block with its head. 
+
+
+On A1 robot, an [Intel Up board](https://up-board.org/) is implemented for high-level locomotion control and a [Raspberry pi 4b](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) is used for solving [realsense camera](https://www.intelrealsense.com/depth-camera-d435/) image and other sensor data.
+
+
