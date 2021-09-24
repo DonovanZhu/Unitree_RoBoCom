@@ -1,2 +1,4 @@
-# Unitree_RoBoCom
-Demo for Unitree RoBoCom
+# Unitree RoBoCom
+
+A demo and its description for Unitree RoBoCom.
+
