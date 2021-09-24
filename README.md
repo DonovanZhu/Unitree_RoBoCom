@@ -9,7 +9,7 @@ A demo and its description for Unitree RoBoCom.
 
 ## Installation Tips
 
-### pyrealsense2 
+### pyrealsense2 (on Raspberry pi)
 1. Install dependencies
    ```bash
    sudo apt-get update && sudo apt-get -y upgrade
@@ -49,12 +49,12 @@ A demo and its description for Unitree RoBoCom.
    # Source
    source ~/.bashrc
 
-### Opencv
+### Opencv (on Raspberry pi)
 ```bash
 pip3 install --upgrade opencv-python
 ```
 
-### msgpack
+### msgpack (on Up-board)
 ```bash
 sudo apt-get install libmsgpack*
 ```
