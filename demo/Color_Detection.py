@@ -31,7 +31,7 @@ else:
 pipeline.start(config)
 
 
-ip_remote = '192.168.123.12' # upboard IP
+ip_remote = '192.168.123.161' # upboard IP
 port_remote = 32000 # port
 udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # setup socket
 
