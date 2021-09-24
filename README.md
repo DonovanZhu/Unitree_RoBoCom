@@ -78,7 +78,7 @@ After successfully get the HSV of the chosen color, edit the following line in C
 color_lower = np.array([55, 150, 140], np.uint8) 
 color_upper = np.array([65, 165, 155], np.uint8)
 ```
-These numbers are lower and upper boundery of HSV color you want to detect. 
+These numbers are lower and upper boundery of HSV color you want to detect. The detected HSV value should be inside this range.
 
 Now running Color_Detection.py to process the image.
 
