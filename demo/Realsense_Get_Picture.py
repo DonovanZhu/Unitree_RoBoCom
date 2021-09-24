@@ -36,4 +36,4 @@ for i in range(300):
     # Convert images to numpy arrays
     color_image = np.asanyarray(color_frame.get_data())
 
-cv.imwrite("board.jpg", color_image)
+cv.imwrite("color_pick.jpg", color_image)
