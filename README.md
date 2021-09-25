@@ -55,7 +55,11 @@ A demo and its description for Unitree RoBoCom.
 
 ### Opencv
 ```bash
+# For Raspberry pi
 pip3 install --upgrade opencv-python
+
+# For Jetson NX
+sudo apt-get install python3-opencv
 ```
 
 ### msgpack (on Up-board)
