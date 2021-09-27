@@ -45,7 +45,7 @@ A demo and its description for Unitree RoBoCom.
    
    # Insert the following line at the bottom of the file, then save and exit
    # If you are using Raspberry pi:
-   export PYTHONPATH=$PYTHONPATH: /usr/lib/python3/dist-packages/pyrealsense2
+   export PYTHONPATH=$PYTHONPATH:/usr/lib/python3/dist-packages/pyrealsense2
 
    # If you are using Jetson N:
    export PYTHONPATH=$PYTHONPATH:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2
