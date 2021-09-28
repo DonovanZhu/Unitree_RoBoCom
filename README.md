@@ -34,7 +34,7 @@ A demo and its description for Unitree RoBoCom.
    mkdir build && cd build
    
    # Need Internet
-   cmake ../ -DBUILD_PYTHON_BINDINGS:bool=true -DPYTHON_EXECUTABLE=/usr/bin/python3
+   cmake ../ -DFORCE_RSUSB_BACKEND=ON -DBUILD_PYTHON_BINDINGS:bool=true -DPYTHON_EXECUTABLE=/usr/bin/python3
    
    # Takes long time
    make -j2
@@ -56,7 +56,8 @@ A demo and its description for Unitree RoBoCom.
 ### Opencv
 ```bash
 # For Raspberry pi
-pip3 install --upgrade opencv-python
+pip3 install -U numpy
+pip3 install -U opencv-python
 
 # For Jetson NX
 sudo apt-get install python3-opencv
