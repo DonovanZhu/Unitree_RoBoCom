@@ -79,7 +79,7 @@ while(1):
 									(0, 0, 255), 2)	 
 
     # print(max_center)
-    udp_socket.sendto(max_center, (ip_remote, port_remote))
+    udp_socket.sendto(bytes(str(max_center), 'utf-8'), (ip_remote, port_remote))
     
     # show image
     cv.imshow("Color Detection in Real-Time", color_image)
