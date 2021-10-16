@@ -29,7 +29,6 @@ A demo and its description for Unitree RoBoCom.
 
 3. Install
    ```bash
-   sudo ./scripts/setup_udev_rules.sh
    
    mkdir build && cd build
    
