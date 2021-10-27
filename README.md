@@ -30,6 +30,9 @@ A demo and its description for Unitree RoBoCom.
 3. Install
    ```bash
    
+   # This step only for raspberry pi:
+   sudo ./scripts/setup_udev_rules.sh
+ 
    mkdir build && cd build
    
    # Need Internet
